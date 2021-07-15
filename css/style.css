@@ -1,12 +1,86 @@
 .hidden {
   display: none;
 }
-h2 {
+body {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+div{
+  position: absolute;
+  opacity: 0.9;
+  padding: 50px 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: auto;
+  height: auto;
+  text-align: center;
   display: block;
-  font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+ul{
+  list-style:none;
+  }
+#greeting {
+  color: white;
+}
+#weather {
+  text-align: right;
+  right:20px;
+  padding-bottom: 0%;
+  color:white;
+  font-size: 20px;
+  position: absolute;
+}
+#date {
+  font-size: 50px;
+  color: white;
+}
+#clock {
+  font-size: 50px;
+  color: white;
+}
+#greeting {
+  font-size: 50px;
+  color: white;
+}
+input {
+  border: 0px;
+  font-size: 50px;
+  background-color: transparent;
+}
+input::placeholder{
+  color:white;;
+  font-size: 30px;
+  text-align: center;
+  
+}
+input:focus {
+  outline: none;
+}
+input:required {
+  color:white;;
+}
+#todo-list {
+  font-size: 50px;
+  color: white;;
+}
+li button {
+  color: white;
+  background-color: transparent;
+  border: 0px;
+  margin: 50px;
+}
+li button:hover {
+  color: red;
+}
+#quote {
+  font-size: 30px;
+  color: whitesmoke;
 }
